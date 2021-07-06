@@ -34,4 +34,4 @@ There are two generateor methods *GenerateClasses* and *GenerateClassesFromStrea
 The flag *pIRISMessageClass* controls whether IRIS message classes are created. You can directly use these classes in a interoperability production.
 The flag *pCompile* controls whether the newly generated classes are automatically compiled.
 							
-							
+To use this tool, just load and compile the class *ISC.SE.Tools.JSON.cls* into your namespace.							
