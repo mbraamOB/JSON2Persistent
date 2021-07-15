@@ -1,5 +1,5 @@
 {
-	"sring_property_1": "This is a string",
+	"string_property_1": "This is a string",
 	"numeric_property_2": 3.1,
 	"boolean_property_3": true,
 	"obj_property_4": {
