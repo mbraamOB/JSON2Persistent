@@ -63,12 +63,12 @@
 					"variable": [
 						{
 							"key": "package",
-							"value": "Valant.X12.JSON",
+							"value": "My.SamplePackage",
 							"type": "string"
 						},
 						{
 							"key": "class",
-							"value": "v1",
+							"value": "classname",
 							"type": "string"
 						}
 					]
