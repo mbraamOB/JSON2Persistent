@@ -1,0 +1,80 @@
+{
+	"info": {
+		"_postman_id": "79abb2ea-1ff9-4260-b40f-95216206968b",
+		"name": "SE Tools",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Generate JSON Classes",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "sys",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "superuser",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"string_property_1\": \"This is a string\",\r\n\t\"numeric_property_2\": 3.1,\r\n\t\"boolean_property_3\": true,\r\n\t\"obj_property_4\": {\r\n\t\t\"property_1\": \"value_1\",\r\n\t\t\"property_2\": [\r\n\t\t\t\"member_1\",\r\n\t\t\t\"member_2\",\r\n\t\t\t\"member_3\"\r\n\t\t]\r\n\t}\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://<server>:<port>/se/tools/json/generate/:package/:class",
+					"protocol": "http",
+					"host": [
+						"<server>"
+					],
+					"port": "<port>",
+					"path": [
+						"se",
+						"tools",
+						"json",
+						"generate",
+						":package",
+						":class"
+					],
+					"variable": [
+						{
+							"key": "package",
+							"value": "Valant.X12.JSON",
+							"type": "string"
+						},
+						{
+							"key": "class",
+							"value": "v1",
+							"type": "string"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
