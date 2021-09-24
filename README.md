@@ -87,3 +87,11 @@ Made New Class
 
 Parsing Tested and complete
 ~~~
+
+To REST API Enable:
+1.	Goto to management portal Home
+2.	Change to namespace with JSON tool
+3.	Create Web Application
+4.	Choose a name for your REST-Application
+5.  Set the Dispatch Class to "REST.SE.REST.JSON"
+
