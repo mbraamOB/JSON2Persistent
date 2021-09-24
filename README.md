@@ -88,7 +88,7 @@ Made New Class
 Parsing Tested and complete
 ~~~
 
-To REST API Enable:
+## How To Enable REST API:
 1.	Goto to management portal Home
 2.	Change to namespace with JSON tool
 3.	Create Web Application
