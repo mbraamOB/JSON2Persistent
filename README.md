@@ -93,7 +93,7 @@ Parsing Tested and complete
 2.	Change to namespace with JSON tool
 3.	Create Web Application
 4.	Choose a name for your REST-Application
-5.  Set the Dispatch Class to "REST.SE.REST.JSON"
+5.  Set the Dispatch Class to "ISC.SE.REST.JSON"
 
 See sample-screenshot below:
 ![JSON2Persistent](https://user-images.githubusercontent.com/38984124/134642238-c5fffe3e-f0f3-4fb8-93f1-9a48696faf15.png)
