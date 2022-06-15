@@ -8,6 +8,20 @@
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
       <Resource Name="ISC/SE/Tools/JSON.CLS"/>
+      <Resource Name="ISC/SE/REST/JSON.cls"/>
+      <CSPApplication 
+        Url="/se/tools/json"
+        SourcePath="/src/csp"
+        Recurse="1"
+        DeployPath="{$cspdir}/se/tools/json" 
+        MatchRoles=":{$dbrole}"
+        PasswordAuthEnabled="1"
+        UnauthenticatedEnabled="0"
+        DispatchClass="ISC.SE.REST.JSON"
+        ServeFiles="1"
+        CookiePath="/se/tools/json"
+        UseCookies="2"
+       />
     </Module>
   </Document>
 </Export>
