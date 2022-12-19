@@ -3,7 +3,7 @@
   <Document name="json2persistent.ZPM">
     <Module>
       <Name>json2persistent</Name>
-      <Version>1.0.4</Version>
+      <Version>1.0.5</Version>
       <Description>Little tool to create persistent or message classes for InterSystems IRIS and InterSystems IRIS For Health from JSON input. The created classes will extend %JSON.Adaptor</Description>
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
