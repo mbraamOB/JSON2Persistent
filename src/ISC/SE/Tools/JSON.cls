@@ -225,7 +225,7 @@ ClassMethod MakeRelationship(ByRef pPropDefinition As %Dictionary.PropertyDefini
 	#dim tSc as %Status = $$$OK
 	
 	try {
-		set tInverseProp = $piece(pType,".",$length(pType,"."))
+		set tInverseProp = $piece(pType,".",$length(pType,"."))_"Relationship"
 		set pPropDefinition.Relationship = 1
 		set pPropDefinition.Cardinality = "children"
 		set pPropDefinition.Inverse = tInverseProp
