@@ -1,9 +1,9 @@
-version: '3.6'
 services:
   iris:
     build: 
       context: .
       dockerfile: Dockerfile
+    command: --ISCAgent false
     restart: always
     ports: 
       - 1972

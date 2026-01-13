@@ -6,15 +6,16 @@
       <Version>1.0.5</Version>
       <Description>Little tool to create persistent or message classes for InterSystems IRIS and InterSystems IRIS For Health from JSON input. The created classes will extend %JSON.Adaptor</Description>
       <Packaging>module</Packaging>
-      <SourcesRoot>src</SourcesRoot>
-      <Resource Name="ISC/SE/Tools/JSON.CLS"/>
-      <Resource Name="ISC/SE/REST/JSON.cls"/>
-      <CSPApplication 
+      <SourcesRoot>src/ISC</SourcesRoot>
+	    <Resource Name="SE.PKG"/>
+      <!-- Resource Name="ISC/SE/Tools/JSON.CLS"/ -->
+      <!-- Resource Name="ISC/SE/REST/JSON.cls"/ -->
+      <WebApplication 
         Url="/se/tools/json"
         SourcePath="/src/csp"
         Recurse="1"
         DeployPath="{$cspdir}/se/tools/json" 
-        MatchRoles=":{$dbrole}"
+        MatchRoles=":{$globalsDbRole}"
         PasswordAuthEnabled="1"
         UnauthenticatedEnabled="0"
         DispatchClass="ISC.SE.REST.JSON"
