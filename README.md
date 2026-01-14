@@ -48,14 +48,6 @@ Open the terminal in this directory and run:
 ```
  docker-compose up -d    
 ```
-## IPM support
-### Prerequisites
-Make sure you have IPM installed and you have the community repo https://pm.comunity.intersystems.com configured in IPM
-### Installation
-Open an IPM prompt and run
-```
-install json2persistent
-```
 
 ## How to Test it   
 Open IRIS terminal:   
@@ -96,6 +88,15 @@ Made New Class
 
 Parsing Tested and complete
 ~~~
+
+## IPM support
+### Prerequisites
+Make sure you have IPM installed and you have the community repo https://pm.comunity.intersystems.com configured in IPM
+### Installation
+Open an IPM prompt and run
+```
+install json2persistent
+```
 
 ## How To Enable REST API:
 1.	Goto to management portal Home
